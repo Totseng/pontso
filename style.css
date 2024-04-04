@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Css for background color */
+body {
+    background-color: #0c0394; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    background-image: url('image4.jpg'); /* Header image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    padding-top: 20px; 
+    color: #0c0394;
+}
+/* Different background image for the home page */
+.home-page header {
+    background-image: url('image9.jpg'); 
+    height: 400px;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.top-left-nav {
+    position: relative;
+    top: 20px; 
+    left: 20px; 
+}
+
+.top-left-nav .btn {
+    color: white; /* Button text color */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Button background color with transparency */
+}
+
+h1 {
+    font-size: 46px;
+    text-align: center; 
+}
+
+.introduction {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.introduction h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0c0394;
+}
+
+.intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-content p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.intro-content img {
+    max-width: 700px; 
+    border-radius: 10px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: contents;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+/* about css *//* Existing CSS styles */
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-content img {
+    max-width: 700px; 
+    border-radius: 5px;
+    padding: 10px;
+}
+.about h2{
+    color: #0c0394;
+}
+/* css foe services page */
+.service {
+    background-color: #0c0394;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+.service-content {
+    overflow: hidden; 
+}
+
+.service img {
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 5px;
+    max-width: 45%; 
+}
+
+.service-description {
+    overflow: hidden; 
+}
+
+.service-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-description p {
+    margin-bottom: 10px;
+}
+.service p{
+    -webkit-text-fill-color: #fff;
+}
+/* gallery css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    flex-basis: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+/* contact css */
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex-basis: calc(50% - 20px);
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-details {
+    flex-basis: calc(50% - 20px);
+    color: #ccc;
+}
+
+.contact-details h2 {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #222020;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons a {
+    margin: 0 5px;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #fcfcfc;
+}
